@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 1fr;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "head"
+    "main"
+    ;
+}
+.titlesite{
+    color: white;
+}
+.head{
+    grid-area: head;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.main{
+    grid-area: main;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tytul{
+    margin: 5px;
+    text-align: center;
+}
+.post{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 45%;
+    background-color: white;
+    position: relative;
+}
+.tresc{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.tag{
+    position: absolute;
+    font-size: 1rem;
+    right: 10px;
+    bottom: 10px;
+    color: red;
+}
+.zdj{
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+}
