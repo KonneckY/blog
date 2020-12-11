@@ -55,7 +55,7 @@
     position: relative;
 }
 .tresc{
-    margin: 15px;
+    margin: 20px;
     font-size: 1.5rem;
 }
 .tag{
@@ -66,7 +66,5 @@
     color: red;
 }
 .zdj{
-    border-radius: 10px;
-    height: 300px;
-    width: 600px;
+    
 }
