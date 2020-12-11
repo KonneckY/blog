@@ -12,8 +12,7 @@
 <body>
     <div class="container">
         <div class="head">
-            <h1 class="titlesite">Music Information Blog</h1>
-            
+            <h1 class="titlesite">Music Information Blog</h1>     
         </div>
         <div class="main">
             <?php
