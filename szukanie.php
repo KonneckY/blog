@@ -33,7 +33,7 @@
                     echo("<h3 class='tag'>");
                         $result2 = $conn->query("SELECT * FROM tag JOIN post_tag ON tag.id_tag=post_tag.id_tag WHERE post_tag.id_post='".$row1['id_post']."'");
                         while($row2 = $result2->fetch_assoc()){
-                            echo("<form action='szukanie_tagu.php' method='post' class='form_tag'>
+                            echo("<form action='szukanie.php' method='post' class='form_tag'>
                                  <input type='submit' class='in_tag' name='szukaj_tag' value='".$row2['tagname']."'>
                                 </form>");
                         }
